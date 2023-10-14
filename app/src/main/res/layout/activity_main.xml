@@ -4,20 +4,24 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".activity.MainActivity">
 
     <com.google.android.material.tabs.TabLayout
         android:id="@+id/tab_layout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:tabIndicatorColor="@color/red_600"
+        app:tabIndicatorColor="?attr/colorOnPrimary"
         android:elevation="12dp"
-        app:tabGravity="start"
-        android:background="?attr/colorOnPrimary"
-        app:tabIndicatorHeight="3dp"
+        app:tabGravity="fill"
+        app:tabMaxWidth="0dp"
+        app:tabMode="fixed"
+        app:tabTextColor="@color/red_200"
+        app:tabIndicatorFullWidth="true"
+        android:background="?attr/colorPrimary"
+        app:tabIndicatorHeight="2dp"
         app:tabIndicatorGravity="bottom"
-        app:tabSelectedTextColor="@color/red_600"
-        app:tabIndicatorAnimationMode="elastic"
+        app:tabSelectedTextColor="?attr/colorOnPrimary"
+        app:tabIndicatorAnimationMode="linear"
         app:layout_constraintTop_toTopOf="parent" />
 
     <!-- ViewPager2 -->

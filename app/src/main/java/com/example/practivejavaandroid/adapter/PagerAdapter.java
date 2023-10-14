@@ -1,7 +1,9 @@
-package com.example.practivejavaandroid;
+package com.example.practivejavaandroid.adapter;
 
 import androidx.fragment.app.Fragment;
 import androidx.viewpager2.adapter.FragmentStateAdapter;
+
+import com.example.practivejavaandroid.activity.MainActivity;
 
 import java.util.List;
 

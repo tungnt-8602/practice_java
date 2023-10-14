@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">PractiveJavaAndroid</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="feature_fragment_title">FEATURED</string>
+    <string name="deal_fragment_title">DEALS</string>
+    <string name="category_fragment_title">CATEGORIES</string>
 </resources>
